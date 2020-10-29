@@ -18,5 +18,5 @@ Once you run the script it should open up an automated Firefox browser that will
 - It will spam the command until it can see the "Open the door and greet them with h!trick/h!treat", so it might spam a little, I could fix this with a simple cool down but I dont care that much.
 
 ### Editable Variables
-`maxCounts`, which goes through every "tick" in python, so it counts to at default 550 to send another spam message. You can fiddle around with the variable to adjust the timing to your liking. From what my research says the bot has a 4-6 minute cooldown until its next message is available.
-`enableSpam`, a boolean which enables spam or not. The spam automatically will send messages in speed with the `maxCounts` variable. Making this false will disable spam alltogether
+- `maxCounts`, which goes through every "tick" in python, so it counts to at default 550 to send another spam message. You can fiddle around with the variable to adjust the timing to your liking. From what my research says the bot has a 4-6 minute cooldown until its next message is available.
+- `enableSpam`, a boolean which enables spam or not. The spam automatically will send messages in speed with the `maxCounts` variable. Making this false will disable spam alltogether
